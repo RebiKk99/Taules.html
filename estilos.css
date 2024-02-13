@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(203, 147, 233);
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-size: 30px;
+    font: bold;
+}
+
+table {
+    background-color: white;
+    color: black;
+    font-size: larger;
+    text-align: center;
+    table-layout: fixed;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+
+tr,td,th {
+    border: 1px solid black;
+}
+
+tr.cuadrado td {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+table th {
+    padding: 15px;
+}
+
+td .pati {
+    padding: 0px;
+}
+
+tr.left {
+    text-align: left;
+}
+
+th {
+    background-color: lightgrey;
+}
+
+td.mp04 {
+    background-color: rgb(247, 179, 153);
+}
+
+td.mp06 {
+    background-color: rgb(165, 222, 165);
+}
+
+td.mp07 {
+    background-color: lightyellow;
+}
+
+td.mp08 {
+    background-color: lightsteelblue;
+}
+
+td.mp10 {
+    background-color: rgb(79, 135, 191);
+}
+
+td.mp12 {
+    background-color: rgb(242, 174, 174);
+}
+
+td.mp14 {
+    background-color: rgb(255, 255, 169);
+}
+td.t {
+    background-color: rgb(235, 235, 235);
+}
+
+td:first-child {
+    color: blue;
+}
+
+tr:last-child {
+    font-size: 22px;
+}
+
+.tabla1 tr:nth-child(5) {
+    background-color: rgb(199, 245, 229);
+}
+
+.tabla3 img{
+    width: 100px;
+    height: 100px;
+}
+
+.tabla3 a{
+    font-size: 1.2vmin;
+}
